@@ -21,7 +21,7 @@ import com.riklenon.exampleangular.repository.ExampleAngularRepository;
 
 @RestController
 @RequestMapping("/api/jogadores")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("*")
 public class ExampleController {
 	@Autowired
 	private ExampleAngularRepository repository;
